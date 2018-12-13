@@ -7,6 +7,8 @@ const IMEI = require('react-native-imei');
 const RCTCustomWebView = requireNativeComponent("RCTCustomWebView", App, WebView.extraNativeComponentConfig);
 const { CustomWebViewManager } = NativeModules;
 
+import firebase from 'react-native-firebase';
+
 import PropTypes from 'prop-types';
 
 async function requestPermission() {
