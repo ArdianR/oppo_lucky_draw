@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1086954434260",
+    "firebase_url": "https://react-native-1afa9.firebaseio.com",
+    "project_id": "react-native-1afa9",
+    "storage_bucket": "react-native-1afa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086954434260:android:4776aa23208ebecf",
+        "android_client_info": {
+          "package_name": "com.oppo_lucky_draw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086954434260-rn3iit1fgd2gjlkqb8s7pcs2scpcjhng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5l7_pLvMTDAqc-6emKXWGy8iyyT2KCWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
