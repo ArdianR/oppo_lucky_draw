@@ -30,6 +30,13 @@ async function requestPermission() {
 
 export default class App extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      
+    };
+  }
+
   static propTypes = {
     ...WebView.propTypes,
     webviewRef: PropTypes.func
