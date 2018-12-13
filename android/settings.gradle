@@ -1,0 +1,7 @@
+rootProject.name = 'oppo_lucky_draw'
+include ':react-native-imei'
+project(':react-native-imei').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-imei/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+
+include ':app'
