@@ -207,10 +207,11 @@ public class CustomWebViewModule extends ReactContextBaseJavaModule implements A
             // we need to pass a filename for the file to be saved to
             Intent intent = new Intent(intentType);
 
+
             // Create the File where the photo should go
             outputFileUri = getOutputFilename(intentType);
 
-
+            intent.putExtra(MediaStore.EXTRA_SIZE_LIMIT, outputFileUri);
             intent.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUri);
             getCurrentActivity().startActivityForResult(intent, REQUEST_CAMERA);
         } else {
