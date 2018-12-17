@@ -103,6 +103,8 @@ export default class App extends Component {
   };
 
   phoneData() {
+    // NOTED FIYAN
+    // disini lo kasih vaidasi permision udah ke generet semua atau belum kalau sudah baru jalanin ini
     data = `
       document.getElementById('imei').value = '${IMEI.getImei()}';
       document.getElementById('token').value = '${this.state.Token}';
